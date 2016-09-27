@@ -24,12 +24,9 @@ var thatArray = ["Facebook Platform","Erlang Enthusiasts","Ex-Girlfriends",
 "Surgeons","Pounding Jagger Bombs","Textbooks","Coffee Shops","Baristas"];
 
 
-function generate(){
-  return thisArray[Math.floor(Math.random() * thisArray.length)];
-}
 
-function generate2(){
-  return thatArray[Math.floor(Math.random() * thatArray.length)];
-}
+var firstRandom = thisArray[Math.floor(Math.random() * thisArray.length)];
 
-console.log(generate() + ' and ' + generate2());
+var secondRandom = thatArray[Math.floor(Math.random() * thatArray.length)];
+
+console.log(firstRandom + ' and ' + secondRandom);
